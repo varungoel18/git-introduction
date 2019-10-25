@@ -1,0 +1,14 @@
+#p1 {
+    font-size: 30px;
+}
+#p2 {
+    font-family: monospace;              /* in monospace fixed width and in sans-serif different width */
+}
+#para3 {
+    font-style: italic;
+    font-weight: bolder;
+}
+#para4 {
+    word-spacing: 10px;
+    letter-spacing: 2px;
+}

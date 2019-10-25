@@ -1,0 +1,18 @@
+li {
+    font-weight: bold;
+}
+ul>li {                        /* ">" shows that li is the child of ul */
+    color: blue;
+}
+ol>li {
+    color: red;
+}
+ul ul {                                 /* "space" shows that it is decendent */
+    font-style: italic;
+}
+ol+ul {                               /* sibling "+" */
+color: blue;
+}
+ol~ul {
+    color: green;
+}
