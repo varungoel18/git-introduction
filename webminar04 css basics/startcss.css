@@ -1,0 +1,21 @@
+* {
+    color: red;
+}
+div {
+    margin-left: 10px;
+}
+p {
+    font-size : 100px;
+}
+#p2 {
+    font-family: cursive;
+}
+#p1 {
+    margin-left: 50px;
+}
+.bigpara {
+    background-color: lightpink;
+}
+.osmpara {
+    font-size: 80px;
+}
