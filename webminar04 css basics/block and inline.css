@@ -1,0 +1,14 @@
+.box {
+    margin: 20px;
+    padding: 20px;
+    border: solid black 10px;
+}
+.box {
+    background-color: red;
+}
+#div1 {
+    background-color: salmon;
+}
+#div2 {
+    background-color: seagreen;
+}

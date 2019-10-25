@@ -1,0 +1,18 @@
+* {
+    background-color: lightcyan;
+}
+#div1 {
+  background-color: pink;                     <! id takes precedence over class and div also >
+} 
+.cl1 {
+    background-color: green;                  <! it takes precedence over "*"  and div also >
+}                                               
+div {
+    background-color: indigo;                   <! it takes precedence over "*">
+}
+#div1 {
+    background-color: indigo;                   <! takes over from the previous statement of same thing>
+}
+.cl1 {
+    background-color: red;                         <! takes predence over from the previous statement of same thing>
+}
