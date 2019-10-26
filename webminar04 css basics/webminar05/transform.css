@@ -1,0 +1,9 @@
+#div1 {
+    height: 70px;
+    width: 70px;
+    background-color: orange;
+    transform: translate( 30px, 30px);
+    transform: scale(0.5);
+    transform: skew(0,30deg);
+    transform: rotatex(45deg);     /* all can be done from all the three axis*/
+}

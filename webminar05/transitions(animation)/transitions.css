@@ -1,0 +1,22 @@
+div {
+    margin: 100px;
+}
+#div1 {
+background-color: brown;
+height: 80px;
+width: 80px;
+}
+#div1:hover {
+    background-color: green;
+    height: 40px;
+    transition: color 4s , height 10s;
+}
+#div2 {
+    background-color: lightsalmon;
+    height: 50px;
+    width: 20px;
+}
+div:hover + div {
+    margin-left: 20px;
+    transition: 2s;
+}
