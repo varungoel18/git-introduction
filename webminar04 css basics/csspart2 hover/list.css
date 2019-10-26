@@ -1,0 +1,15 @@
+li li {
+    display: none;
+}
+li:hover {
+    color: red;                  /* it changes the color of the text when we put cursor over the data or changes according to the chnges that the user wants*/
+}
+li:hover li {
+    display: block;
+}
+ul ul {
+    display: none;
+}
+li:hover > ul {
+    display:"block";
+}
