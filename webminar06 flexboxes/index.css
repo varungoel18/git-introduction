@@ -1,0 +1,20 @@
+.container {
+    display:flex;
+    flex-direction:column;   /* makes all the data come in a row or column */
+    flex-wrap: wrap-reverse;      /* make the data in reverse direction */
+    justify-content: center;     /* makes the data to come in the center position or the position that user wants */
+}
+.item {
+    background-color: blue;
+    margin: 40px;
+    height: 40px;
+    width: 40px;
+    padding: 20px;
+    font-size: 40px;
+}
+#item1 {
+    order: 1;    /* all the cells have "0" but when we apply any number to a letter then it aligns accordingly */
+    flex-grow: 2;    /* makes the cells bigger in respect to other cells */
+    flex-shrink: 1;
+    align-self: self flex-start;
+}
