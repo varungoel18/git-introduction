@@ -1,0 +1,31 @@
+div {
+    height: 300px;
+    width: 400px;
+    background-color: aquamarine;
+}
+
+@media (max-width:15000px) and (min-width:1000) {
+    #samplediv {
+        background-color: brown;
+    }
+}
+@media (max-width:1000px) and (min-width:750px) {
+    #samplediv {
+        background-color: green;
+    }
+}
+@media (max-width:750px) and (min-width:500){
+    #samplediv {
+        background-color: blue;
+    }
+}
+@media (max-width:500px) and  (min-width:100){
+    #samplediv {
+        background-color: orange;
+    }
+}
+@media {
+    #samplediv {
+        background-color: gray;        /*in black and white monitors which does not support colors*/
+    }
+}
