@@ -23,12 +23,13 @@ function resize(fileName) {
         }
     })
 }
-download('http://cb.lk/logo.png')
-    .then(function(filename) {
-        resize(filename).then(function(resizedfile) {
-            console.log("Resized file is at:" + resizedfile)
-        })
-    })
-.catch(function(err) {
+Promise.all([                                // if in one there is error other will not work.
+    download('http://cb.lk/logo.png'),
+    download('http://cb.lk/banner.png'),
+    download('http://cb.lk/promo.png')
+]).then(function (values) {
+    console.log(values)
+    
+}).catch(function(err) {
     console.error(err)
 })
